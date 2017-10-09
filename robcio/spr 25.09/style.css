@@ -1,0 +1,48 @@
+#container
+{
+width: 1000px;
+height: 550px;
+}
+
+header
+{
+	width: 996px;
+	height: 64px;
+	border: 2px dotted;
+	text-align:center;
+	background-color: green;
+}
+nav
+{
+	
+	width: 990px;
+	height: 40px;
+	padding: 5px;
+	background-color: blue;
+}
+
+#left
+{
+	width: 290px;
+	padding: 5px;
+	height: 370px;
+	background-color: yellow;
+	float: left;
+
+}
+#right
+{
+	width: 700px;
+	background-color: red;
+	height: 380px;
+	float: right;
+}
+
+footer
+{
+	background-color: black;
+	width: 1000px;
+	height: 42px;
+	padding-top:3px;
+	float: left;
+}

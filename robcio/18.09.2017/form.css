@@ -1,0 +1,52 @@
+input
+{
+	margin-bottom: 10px;
+}
+label
+{
+	margin-bottom: 10px;
+}
+.L1
+{
+	border: 2px;
+	border-style: solid;
+	border-color: darkgray;
+	border-radius: 4px;
+	display:block;
+	width: 80px;
+	padding-right: 3px;
+}
+
+.L2
+{
+	border: 2px;
+	border-style: solid;
+	border-color: darkgray;
+	border-radius: 4px;
+	display:block;
+	width: 80px;
+	padding-right: 3px;
+}
+
+.L3
+{
+	border: 2px;
+	border-style: solid;
+	border-color: darkgray;
+	border-radius: 4px;
+	display:block;
+	width: 80px;
+	padding-right: 3px;
+}
+
+.L4
+{
+	border: 2px;
+	border-style: solid;
+	border-color: darkgray;
+	border-radius: 4px;
+	display:block;
+	width: 80px;
+	padding-right: 3px;
+	margin: 1px;
+}

@@ -1,0 +1,61 @@
+body
+{
+	margin-top: 0px;
+}
+
+#container
+{
+	margin-left : auto;
+	margin-right: auto;
+	background-color: lightgray;
+	width: 1000px;
+	min-height: 650px;
+}
+
+header
+{
+	background-color: blue;
+	border: 2px solid black;
+	min-height: 75px;
+	width: 996px;
+}
+
+#top
+{
+	background-color: orange;
+	border: 2px solid black;
+	border-top: 0px;
+	min-height: 75px;
+	width: 996px;
+}
+
+#left
+{	
+	float:left;
+	background-color: pink;
+	min-height:394px;
+	width: 200px;
+}
+
+article
+{
+	float:left;
+	width:700px;
+	background-color: red;
+	min-height: 394px;
+}
+
+aside
+{
+	float:left;
+	width:100px;
+	background-color: green;
+	min-height: 394px;
+}
+
+footer
+{
+	clear: both;
+	min-height: 100px;
+	background-color: blue;
+}

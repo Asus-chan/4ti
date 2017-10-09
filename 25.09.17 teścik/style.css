@@ -1,0 +1,58 @@
+body
+{
+	width: 900px;
+	height: 600px;
+}
+
+header
+{
+	width: 890px;
+	height: 50px;
+	padding: 5px;
+	background-color:yellow;
+}
+
+section
+{
+	width: 900px;
+	height: 450px;
+}
+
+#left
+{
+	width: 590px;
+	height: 440px;
+	background-color: red;
+	padding: 5px;	
+	float: left;
+}
+
+#right
+{
+	width: 278px;
+	height: 428px;
+	padding: 10px;
+	border-top: 1px solid orange;
+	border-left: 1px solid orange;
+	border-right: 1px solid orange;
+	border-bottom: 1px solid orange;
+	background-color: green;
+	float: right;
+}
+
+#bottom
+{
+	width: 880px;
+	height: 25px;
+	padding: 10px;
+	background-color: blue;
+	display: block;
+}
+
+footer
+{
+	width: 900px;
+	height: 45px;
+	background-color: pink;
+	display: block;
+}

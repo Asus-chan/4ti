@@ -1,0 +1,50 @@
+<!DOCTYPE HTML>
+ <html lang="pl">
+ <head>
+	<meta chatset="utf-8"/>
+	<link rel="stylesheet" type="text/css" href="form.css"/>
+ </head>
+ <body>
+	<form action="odbierz.php" method="post">
+	<fieldset>
+	<legend>Dane Osobowe</legend>
+	<label for="login">Login:</label>
+	<input type="text" name="login" value="" autofocus="autofocus" placeholder="login" /><br/>
+	<label>Hasło: <input type="password" value="" placeholder="hasło" required="required" /></label><br/>
+	Email: <input type="email" value="" placeholder="email" required="required" /><br/>
+	Url: <input type="url" value="" placeholder="url"/><br/>
+	Data ur: <input type="date" value=""/><br/>
+	Foto: <input type="file" name="fotka"/><br/>
+	</fieldset>
+	<textarea name="opis" rows="5" cols="50"></textarea></br/><br/>
+	Kolor: <select name="kolor">
+			<option>red</option>
+			<option>blue</option>
+			<option>black</option>
+			<option>green</option>
+			<option>yellow</option>
+			</select><br/></br>
+			
+	zupy: <select name="zupy[]" multiple="multiple">
+			<option>krupnik</option>
+			<option>rosoł</option>
+			<option>ogórkowa</option>
+			<option>flaki</option>
+			<option>kociołek panoramixa</option>
+			</select><br/><br/>
+			
+	<label class="L1">Pierwsza<input type="radio" id="pierwsza" name="klasa" value="1"/></label>
+	<label class="L2">Druga<input type="radio" id="druga" name="klasa" value="2"/></label>
+	<label class="L3">Trzecia<input type="radio" id="trzecia" name="klasa" value="3"/></label>
+	<label class="L4">Czwarta<input type="radio" id="czwarta" name="klasa" value="4"/></label><br/>
+	<legend2>Twoje ulubione Owoce: </legend2><br/>
+	<label class="L1">Banan<input type="checkbox" name="owoce[]" value="banan"/></label>
+	<label class="L1">Jabłko<input type="checkbox" name="owoce[]" value="jablo"/></label>
+	<label class="L1">Arbuz<input type="checkbox" name="owoce[]" value="arbuz"/></label>
+	<label class="L1">Papaja<input type="checkbox" name="owoce[]" value="papaja"/></label>
+	<label class="L1">Groszek<input type="checkbox" name="owoce[]" value="groszek"/></label>
+	
+			<input type="submit" value="Wyślij" /><br/>
+	</form>
+ </body>
+ </html>

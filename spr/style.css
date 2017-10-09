@@ -1,0 +1,39 @@
+#container{
+  width: 900px;
+  height: 600px;
+  background-color: black;
+}
+header{
+  width: 890px;
+  height: 50px;
+  padding: 5px;
+  background-color: green;
+}
+nav{
+  width: 290px;
+  padding: 5px;
+  background-color: blue;
+  float: left;
+  height: 400px;
+}
+aside{
+  width: 580px;
+  padding: 10px;
+  border: 1px;
+  background-color: yellow;
+  float: left;
+  height: 390px;
+}
+#nw{
+  width: 880px;
+  height: 65px;
+  padding: 10px;
+  background-color: pink;
+  clear: both;
+
+}
+footer{
+  width: 900px;
+  height: 45px;
+  background-color: orange;
+}
